@@ -1,0 +1,19 @@
+html
+    head
+        title AES
+    body
+        div AES
+        br
+        form(action = "/", method = "POST" enctype="multipart/form-data")
+            div
+                label(for = "stringHide") Chuoi ma hoa:
+                br
+                input(name = "stringHide" type="text" value = stringFile)
+            br
+            div
+                label(for = "fileEncode") File:
+                br
+                input(name = "fileEncode" type="file" value = file)
+            br
+            button(type = "submit") Ma hoa
+        

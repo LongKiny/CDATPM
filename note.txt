@@ -1,0 +1,9 @@
+privateKey 
+1.dungf trong sessionid cua tham so secret key de ma hoa sessionid
+2.dung trong jsonwebtoken dung de ma hoa thong tin theo dang hmac sha256
+secretkey
+1. dung trong sessionid dung de ma hoa sessionid
+
+jsonwebtoken: https://www.npmjs.com/package/jsonwebtoken?fbclid=IwAR0U660rfPt9oKRqWcOdPuHTRJWwGCBVqQ5PmA1r6I5cTs2LvaoPceR3uVg
+express-session: https://www.npmjs.com/package/express-session?fbclid=IwAR1O51RrzrIGM7EfFV2F20Na4aCuBOGLl-r4JTDqAuI79QZqcFLg1bak2C8
+express-session: path: Specifies the value for the Path Set-Cookie. By default, this is set to '/', which is the root path of the domain.
